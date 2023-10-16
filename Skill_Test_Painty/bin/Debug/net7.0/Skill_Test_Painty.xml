@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Skill_Test_Painty</name>
+    </assembly>
+    <members>
+        <member name="M:Skill_Test_Painty.Controllers.AuthController.Login(System.String,System.String)">
+            <summary>
+            Авторизация
+            </summary>
+            <param name="login">Логин</param>
+            <param name="password">Пароль</param>
+            <returns>Токен</returns>
+        </member>
+        <member name="M:Skill_Test_Painty.Controllers.AuthController.Regestry(Skill_Test_Painty.Dto.UserDto)">
+            <summary>
+            Регистрация
+            </summary>
+            <param name="userDto">Данные для регистрации</param>
+            <returns>Токен</returns>
+        </member>
+        <member name="M:Skill_Test_Painty.Controllers.FriendController.AddFriend(System.Int32)">
+            <summary>
+            Добавить друга
+            </summary>
+            <param name="IdFriend"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Skill_Test_Painty.Controllers.FriendController.GetMyFriend">
+            <summary>
+            Получить пользователей добавленных в друзья
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Skill_Test_Painty.Controllers.FriendController.GetFriend">
+            <summary>
+            Список у когов в друзьях находится данный пользователь
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Skill_Test_Painty.Controllers.ImageController.UploadImage(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Загрузга изображения
+            </summary>
+            <param name="file"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Skill_Test_Painty.Controllers.ImageController.MyImage">
+            <summary>
+            Список изображений пользователя
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Skill_Test_Painty.Controllers.ImageController.GetImage(System.String)">
+            <summary>
+            Получить само изображение
+            </summary>
+            <param name="fileName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Skill_Test_Painty.Controllers.ImageController.FriendImage(System.Int32)">
+            <summary>
+            Изображение пользователя в друзьях
+            </summary>
+            <param name="Id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Skill_Test_Painty.Controllers.UserContoller.GetUsers">
+            <summary>
+            Получить список пользователей
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Skill_Test_Painty.Migrations.create">
+            <inheritdoc />
+        </member>
+        <member name="M:Skill_Test_Painty.Migrations.create.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Skill_Test_Painty.Migrations.create.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Skill_Test_Painty.Migrations.create.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

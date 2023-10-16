@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Skill_Test_Painty.props" />
+</Project>
